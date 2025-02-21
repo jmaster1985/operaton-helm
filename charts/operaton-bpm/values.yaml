@@ -101,8 +101,9 @@ readinessProbe:
     httpGet:
       path: /operaton/
       port: http
-    initialDelaySeconds: 120
-    periodSeconds: 60
+    initialDelaySeconds: 30
+    periodSeconds: 10
+    failureThreshold: 3
 
 # An arbitrary use of livenessProbe could make a lot of service interruption, use it wisely.
 livenessProbe:
@@ -149,11 +150,11 @@ securityContext:
 
 resources:
    limits:
-     cpu: 500m
-     memory: 768Mi
+     cpu: 1
+     memory: 1Gi
    requests:
-     cpu: 100m
-     memory: 256Mi
+     cpu: 250m
+     memory: 512Mi
 
 extraVolumeMounts:
   []
