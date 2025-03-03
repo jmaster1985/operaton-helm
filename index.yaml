@@ -12,6 +12,42 @@ entries:
           url: https://github.com/operaton/operaton
     apiVersion: v2
     appVersion: 1.0.0-beta-3
+    created: "2025-03-03T09:03:50.369978332Z"
+    description: 'Helm chart for Operaton BPM '
+    digest: 5ee5c293d72957ff1a597633898b97d2b86a1bc39187e67ac57940e1051d5268
+    home: https://operaton.org
+    icon: https://operaton.github.io/operaton-helm/operaton-logo.png
+    keywords:
+    - bpm
+    - bpmn
+    - operaton-bpm
+    - operaton-engine
+    - dmn
+    - process-engine
+    - workflow
+    maintainers:
+    - name: Jaye
+      url: https://github.com/jmaster1985
+    name: operaton-bpm
+    sources:
+    - https://github.com/operaton/operaton-helm/tree/main/charts/operaton-bpm
+    - https://github.com/operaton/operaton-docker
+    - https://github.com/operaton/operaton
+    type: application
+    urls:
+    - https://github.com/jmaster1985/operaton-helm/releases/download/operaton-bpm-1.0.1/operaton-bpm-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
+      artifacthub.io/changes: ""
+      artifacthub.io/links: |
+        - name: Operaton BPM Helm chart
+          url: https://github.com/operaton/operaton-helm/tree/main/charts/operaton-bpm
+        - name: Operaton BPM Docker
+          url: https://github.com/operaton/operaton-docker
+        - name: Operaton BPM
+          url: https://github.com/operaton/operaton
+    apiVersion: v2
+    appVersion: 1.0.0-beta-3
     created: "2025-02-28T09:14:10.178934159Z"
     description: 'Helm chart for Operaton BPM '
     digest: e96c4a3860b351e88a1f1f5c50afd9a11171bb708302b49d67dc39706bfc098a
@@ -74,4 +110,4 @@ entries:
     urls:
     - https://github.com/jmaster1985/operaton-helm/releases/download/operaton-bpm-1.0.0-beta-3/operaton-bpm-1.0.0-beta-3.tgz
     version: 1.0.0-beta-3
-generated: "2025-02-28T09:14:10.178940651Z"
+generated: "2025-03-03T09:03:50.369987048Z"
